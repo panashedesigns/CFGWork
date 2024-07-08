@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'VisbyRegular';
+    src: url(Fonts/visby/VisbyRegular.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'VisbyLight';
+    src: url(Fonts/visby/VisbyLight.otf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'VisbySemiBold';
+    src: url(Fonts/visby/VisbySemibold.otf);
+}
+@font-face {
+    font-family: 'VisbyBold';
+    src: url(Fonts/visby/VisbyBold.otf);
+}
+@font-face {
+    font-family: 'VisbyHevayItalic';
+    src: url(Fonts/visby/VisbyHeavy\ Italic.otf);
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    pointer-events: auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    /* background-color: #ddd; */
+    color: rgba(255, 255, 255, 0.373);
+  }
+  
+  body{
+    margin: 0;
+    padding:0
+ }
+
+.topnav{
+    background-color: #000000;
+    font-family:'Inter';
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    scroll-snap-stop:always;
+    scroll-snap-align: start;
+    margin-top: 0;
+}
+
+
+.pink-button {
+    background-color:#EB695D;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    }
+
+/* h1{
+    font-family:'VisbySemibold';
+    color:white;
+    font-size: 10px;
+    padding-bottom: 0%;
+} */
+
+/* custom.css */
+.logo-white{
+    font-family: 'VisbySemibold';
+    color:white;
+    font-size:100px;
+    margin-top: 0;
+}
+/* custom.css */
+.logo-pink{
+    font-family: 'VisbySemibold';
+    color: #EB695D;
+    font-size:100px;
+}
+/* custom.css */
+.logo-tagline {
+    font-family:'VisbySemibold';
+    font-size:40px;
+    color: #EB695D;
+}
+
+/* custom.css */
+.logo-tagline-white {
+    font-family:'VisbySemibold';
+    font-size:40px;
+    color:white;
+}
+
+
+
+p{
+    font-family:'VisbySemibold';
+    color: white;
+    font-size: 40px;
+}
+
+/* custom.css */
+.P-CSS{
+    font-family:'VisbySemibold';
+    font-size:40px;
+}
+
+/* h2{
+    font-family:'VisbySemibold';
+} */
+
+/* custom.css */
+.heavy-statement{
+    font-family: 'VisbySemibold';
+    font-size: 60px;
+}
+
+.Display-1{
+    font-family:'VisbySemibold';
+    font-size: 50px;
+}
+
+.HeavyItalic{
+    font-family:'VisbyHevayItalic';
+}
+
+/* h4{
+    font-family:'Inter';
+    font-weight: 300;
+} */
+
+/* custom.css */
+.lighter-subheading{
+    font-weight:300;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+
+/* .h4-2{
+    font-family:'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        }
+} */
+
+/* .h4-3{
+    font-family:'Inter';
+    color: white;
+    font-size: 16px;
+} */
+
+.light-links{
+    font-family: 'Inter';
+    font-weight: 350;
+    font-size:16px;
+    color: white;
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        }
+}
+
+.light{
+    font-family:'VisbyLight';
+}
+
+h3{
+    font-family:'VisbySemibold';
+}
+
+.light-paragraph{
+    font-weight:300;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+
+/* custom.css */
+.heavy-description{
+    font-family: 'VisbySemibold';
+    font-size: 20px;
+}
+
+
+.parent{
+    text-align: center;
+    justify-content: center;
+    display:grid;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.Text-container{
+    height: 100vh;
+    scroll-snap-align: center;
+    display:flex;
+    justify-content:center;
+    padding: 150px;
+}
+
+.Text-1{
+    width: 50%;
+    padding-right: 40px;
+}
+
+.Text-2{
+    width: 30%;
+    padding-top: 230px;
+}
+
+.Text-container-2{
+    height: 100vh;
+    scroll-snap-align: center;
+    display:flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.Text-container-2-color{
+    height: 100vh;
+    scroll-snap-align: center;
+    display:flex;
+    justify-content: center;
+    padding: 150px;
+    background-color: #bcd4de71;
+}
+
+
+.Text-3{
+    width: 50%;
+    padding-right: 250px;
+}
+
+.Image-Right{
+    width: 30%;
+    justify-content: left;
+}
+
+footer{
+    background-color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 40px;
+    align-items:center;
+    scroll-snap-align: center;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+/* .Text-Left{
+    justify-content: left;
+    align-items: center;
+} */
+
+.Group-1{
+    display: flex;
+    align-items:last baseline;
+
+}
+
+.Icons-Right{
+    display: flex;
+    float: right;
+}
+
+.Group-2{
+    padding: 10px;
+}
+
+
+.Joining-Form{
+    /* width: 30%; */
+    justify-content: left;
+    padding-top: 130px;
+}
+
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+
+.Text-container{
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+} */
+
+.Text-container-2{
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;  
+}
+
+.Text-container-2-color{
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;  
+}
+
+
+
+  /* Style the links inside the footer */
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+    pointer-events: auto;
+  }
+  
+  /* Change the color of links on hover */
+footer a:hover {
+    /* background-color: #ddd; */
+    color: rgba(255, 255, 255, 0.373);
+  }
+
+
